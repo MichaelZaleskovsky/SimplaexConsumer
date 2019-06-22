@@ -20,6 +20,6 @@ Consumer will write result to files with names "simplaex\<timeStamp\>.txt" to th
 
 # Manual test
 For manual testing of programm use test TCPProducer at https://github.com/MichaelZaleskovsky/SimplaexProducer
-To test you have to set parameter TCPConsumer.GROUP_BY to 5
+To test you have to set parameter <b>TCPConsumer.GROUP_BY</b> to 5
 After start producer you will get 2 files in output folder and 1 message that one bundle of data have incorrect data.
 
