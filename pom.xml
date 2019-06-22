@@ -3,8 +3,21 @@
   <groupId>SimplaexConsumer</groupId>
   <artifactId>SimplaexConsumer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Data Consumer</name>
-  <description>Simplaex test TCP data consumer and analyzer</description>
+  <name>SimplaexConsumerTest</name>
+  <description>Simple TCP data consumer and analyzer</description>
+  <dependencies>
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter-engine</artifactId>
+    	<version>5.5.0-RC2</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.junit.platform</groupId>
+	    <artifactId>junit-platform-runner</artifactId>
+	    <version>1.5.0-RC2</version>
+	    <scope>test</scope>
+	</dependency>
+</dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>

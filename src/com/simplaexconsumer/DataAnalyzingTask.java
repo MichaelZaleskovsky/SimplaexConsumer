@@ -15,8 +15,8 @@ public class DataAnalyzingTask implements Runnable {
 	
 	Logger log = Logger.getLogger(DataAnalyzingTask.class.getName());
 	
-	private static final String DIR = "./output";
-	private static final String FILE_PREFIX = "/simplaex";
+	public static final String DIR = "./output";
+	public static final String FILE_PREFIX = "/simplaex";
 	
 	private String[] data;
 	private String timeStamp;
