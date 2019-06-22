@@ -16,7 +16,7 @@ start Producer
 
 result
 
-Consumer will write result to files with names "simplaex/<timeStamp/>.txt" to the folder "./output"
+Consumer will write result to files with names "simplaex\<timeStamp\>.txt" to the folder "./output"
 
 # Manual test
 For manual testing of programm use test TCPProducer at https://github.com/MichaelZaleskovsky/SimplaexProducer
